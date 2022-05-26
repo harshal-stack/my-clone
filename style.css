@@ -43,7 +43,7 @@
  nav ul li a {
      color: #000000;
      text-decoration: none;
-     font-size: 18px;
+     font-size: px;
      font-weight: 500;
      padding: 8px 15px;
      border-radius: 5px;
@@ -175,90 +175,129 @@
      width: 100%;
      font-weight: lighter;
  }
- .details p{
+
+ .details p {
      margin-top: 2rem;
      width: 65%;
      font-size: medium;
  }
-.pricing{
-height: 100px;
-text-align: center;
-margin-top: 15px;
-}
-#start{
-    font-weight: 1000;
-    font-size: 40px;
-    text-align: center;
-}
-#learn{
-    font-weight: lighter;
-    font-size: 30px;
-}
-.data_new{
-    display: flex;
-    justify-content: center;
+
+ .pricing {
+     height: 100px;
+     text-align: center;
+     margin-top: 15px;
+ }
+
+ #start {
+     font-weight: 1000;
+     font-size: 40px;
+     text-align: center;
+ }
+
+ #learn {
+     font-weight: lighter;
+     font-size: 30px;
+ }
+
+ .data_new {
+     display: flex;
+     justify-content: center;
      height: 350px;
-    width: 310px;
-    background-color: rgb(241, 239, 239);
-    border: 2px solid rgb(172, 170, 170);
-    border-radius: 10px;
-    margin-top: 1rem;
-    margin-left: 5rem;
-}
-.colmnus{
-    margin-left: 2rem;
-}
-.new_para{
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
-}
-.columns_button{
-    padding:7px 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    background-color: rgb(59, 88, 184);
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.columns_button:hover{
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid black;
-}
-columns_button:nth-child(2){
-    margin-left: px;
-}
+     width: 310px;
+     background-color: rgb(241, 239, 239);
+     border: 2px solid rgb(172, 170, 170);
+     border-radius: 10px;
+     margin-top: 1rem;
+     margin-left: 5rem;
+ }
 
-.extra{
-    height: 80px;
-    width: auto;
-    font-size: 25px;
-    border-bottom:  2px dashed  rgb(172, 170, 170);
-    text-align: center;
-    color: #0356ca;
-}
-.pricing_ul{
-    margin-top: 2rem;
-    margin-left: 3rem;
-    display: grid;
- 
-}
-.for_all{
-    margin-bottom: 5rem;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-.counting{
-    height: 200px;
-    background-color: rgb(59, 88, 184);
-}
+ .colmnus {
+     margin-left: 2rem;
+ }
 
+ .new_para {
+     font-size: 14px;
+     text-align: center;
+     margin-top: 10px;
+     font-weight: bold;
+ }
 
+ .columns_button {
+     padding: 7px 30px;
+     margin-left: 50px;
+     margin-top: 20px;
+     background-color: rgb(59, 88, 184);
+     color: #ffffff;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .columns_button:hover {
+     background-color: #ffffff;
+     color: #000000;
+     border: 1px solid black;
+ }
+
+ columns_button:nth-child(2) {
+     margin-left: px;
+ }
+
+ .extra {
+     height: 80px;
+     width: auto;
+     font-size: 25px;
+     border-bottom: 2px dashed rgb(172, 170, 170);
+     text-align: center;
+     color: #0356ca;
+ }
+
+ .pricing_ul {
+     margin-top: 2rem;
+     margin-left: 3rem;
+     display: grid;
+
+ }
+
+ .for_all {
+     margin-bottom: 5rem;
+     height: 350px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .counting {
+     height: 200px;
+     background-color: rgb(59, 88, 184);
+ }
+
+ .numbers {
+     height: 250px;
+     margin-bottom: 10rem;
+     background-color: rgb(59, 88, 184);
+     color: #ffffff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .firstbox {
+     margin: 0px 50px;
+ }
+
+ .firstbox h1 {
+     font-size: 50px;
+ }
+
+ .firstbox h3 {
+     font-weight: lighter;
+ }
+.dummy{
+    display: none;
+}
  /* @media (max-width: 1000px) {
     nav {
         padding: 0 40px 0 px;
@@ -268,6 +307,10 @@ columns_button:nth-child(2){
  @media only screen and (max-width: 600px) {
      nav .menu-btn i {
          display: block;
+     }
+
+     .numbers {
+         display: none
      }
 
      #click:checked~.menu-btn i:before {
@@ -327,7 +370,7 @@ columns_button:nth-child(2){
          height: 200px;
          width: 150px;
          margin-top: -9rem;
-         margin-left: 10rem;
+         margin-left: 7rem;
          border-radius: 20px;
 
 
@@ -391,49 +434,64 @@ columns_button:nth-child(2){
      #new_img {
          display: none;
      }
+
      .about {
-        background-color: rgb(59, 88, 184);
-        color: white;
-        height: 350px;
-        margin-top: 15rem;
-    }
-    .second_hero img{
-        display: none; 
-    }
-    .second_hero{
-        margin: 1rem 2rem;
-        font-size: larger;
-        text-align: start;
-    }
-    .data_new{
-        display: flex;
-        justify-content: center;
+         background-color: rgb(59, 88, 184);
+         color: white;
+         height: 350px;
+         margin-top: 15rem;
+     }
+
+     .second_hero img {
+         display: none;
+     }
+
+     .second_hero {
+         margin: 1rem 2rem;
+         font-size: larger;
+         text-align: start;
+     }
+
+     .data_new {
+         display: flex;
+         justify-content: center;
          height: 404px;
-        width: 250px;
-        border: 2px solid rgb(172, 170, 170);
-        margin-top: 1rem;
-        margin-left: 4rem;
-        margin-bottom: 2rem
-    }
-    .extra{
-        margin-top: 30px;
-        font-size: 20px;
-    }
-.for_all{
-    display: block;
-}
-#start {
-    font-weight: 1000;
-    font-size: 25px;
-    text-align: center;
-}
-.columns_button {
-    padding: 7px 30px;
-    margin-left: 45px;
-    margin-top: 20px;
-}
-   
-  
+         width: 250px;
+         border: 2px solid rgb(172, 170, 170);
+         margin-top: 1rem;
+         margin-left: 4rem;
+         margin-bottom: 2rem
+     }
+
+     .extra {
+         margin-top: 30px;
+         font-size: 20px;
+     }
+
+     .for_all {
+         display: block;
+     }
+
+     #start {
+         font-weight: 1000;
+         font-size: 25px;
+         text-align: center;
+     }
+
+     .columns_button {
+         padding: 7px 30px;
+         margin-left: 45px;
+         margin-top: 20px;
+     }
+
+     .for_all {
+         height: 1235px;
+     }
+     .dummy{width: 375px;
+         display: block;
+        width: 90%;
+     }
+
  }
 
  .content {
@@ -465,11 +523,11 @@ columns_button:nth-child(2){
  }
 
 
- @media only screen and (max-width: 1024px) {
+ @media only screen and (min-width: 1024px) {
      nav ul li a {
          color: #000000;
          text-decoration: none;
-         font-size: 9px;
+         font-size: 18px;
          font-weight: 500;
          padding: 8px 15px;
          border-radius: 5px;
