@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <style>
@@ -16,107 +17,6 @@
 
 
         }
-
-        /* .nav-bar {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1.5rem 0.5rem;
-    }
-    
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo img {
-        width: 1.3rem;
-        height: 1.3rem;
-        margin: 0 10px;
-    }
-    
-    .menu-right {
-        display: flex;
-    }
-    
-    .menu-right ul {
-        margin-right: 2rem;
-    }
-    
-    .menu-right ul li {
-        display: inline-block;
-        margin: 0 0.5rem;
-        color: dimgray;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        cursor: pointer;
-    }
-    
-    .menu-right ul li:hover {
-        color: #6F5AFF;
-    }
-    
-    .new span { */
-        /* margin-right: 0.5rem; */
-        /* padding: 10px 20px;
-        cursor: pointer;
-        color: #273B7B;
-        font-weight: 600;
-        border: none;
-    
-    }
-    
-    .new span:hover {
-        border-radius: 2rem;
-        background-color: whitesmoke;
-        color: #6F5BFF;
-    }
-    
-    
-    @media(max-width:900px) {
-        .nav-bar {
-    
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-    
-        .logo {
-            width: 7.125rem;
-            height: 0.8rem;
-            margin: 0 10px;
-        }
-    
-        .menu-right ul li {
-            display: none
-        }
-        .new{
-            display: flex;
-        }
-    
-        .new .first {
-            display: inline-block;
-            padding: 0;
-            margin-right: 1.5rem;
-        }
-    
-        .new .second {
-            display: inline-block;
-            padding: 0;
-            margin-right: 1.5rem
-        }
-        #menu{
-            display: block;
-        }
-    
-        .new span.first .second:hover {
-          
-            color: #6F5BFF;
-        }
-    
-    
-    } */
 
         @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
@@ -165,7 +65,7 @@
         nav ul li a {
             color: #000000;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 30px;
             font-weight: 500;
             padding: 8px 15px;
             border-radius: 5px;
@@ -411,7 +311,7 @@
             </label>
             <ul>
                 <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="https://www.youtube.com/">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Feedback</a></li>
@@ -457,57 +357,145 @@
             <span id="start">Start anywhere,</span><span id="learn">Learn, Upskill, Grow.</span>
         </section>
         <div class="for_all">
-            <section class="data_new">
-                <div class="columns">
-                    <div class="extra">Program for
-                        Freshers</div>
-                    <ul class="pricing_ul">
-                        <li>Pay After Placement</li>
-                        <li> Live Classes</li>
-                        <li> Interview Preparation</li>
-                        <li>Personal Mentors</li>
-                    </ul>
-                    <p class="new_para">Time Investment: 40 hours/week</p>
-                    <button class="columns_button">Learn More</button>
-                </div>
+            <div data-aos="flip-left">
+                <section class="data_new ">
+                    <div class="columns">
+                        <div class="extra">Program for
+                            Freshers</div>
+                        <ul class="pricing_ul">
+                            <li>Pay After Placement</li>
+                            <li> Live Classes</li>
+                            <li> Interview Preparation</li>
+                            <li>Personal Mentors</li>
+                        </ul>
+                        <p class="new_para">Time Investment: 40 hours/week</p>
+                        <button class="columns_button">Learn More</button>
+                    </div>
+            </div>
             </section>
-            <section class="data_new">
-                <div class="columns">
-                    <div class="extra">Program for
-                        Freshers</div>
-                    <ul class="pricing_ul">
-                        <li>Accredited University Partners</li>
-                        <li>Live Classes</li>
-                        <li> Customised Curriculum</li>
-                        <li>EMIs starting at Rs. 6500/-</li>
-                    </ul>
-                    <p class="new_para">Time Investment: 40 hours/week</p>
-                    <button class="columns_button">Learn More</button>
-                </div>
+            <div data-aos="flip-right">
+                <section class="data_new">
+                    <div class="columns">
+                        <div class="extra">Program for
+                            Freshers</div>
+                        <ul class="pricing_ul">
+                            <li>Accredited University Partners</li>
+                            <li>Live Classes</li>
+                            <li> Customised Curriculum</li>
+                            <li>EMIs starting at Rs. 6500/-</li>
+                        </ul>
+                        <p class="new_para">Time Investment: 40 hours/week</p>
+                        <button class="columns_button">Learn More</button>
+                    </div>
+            </div>
             </section>
-            <section class="data_new">
-                <div class="columns">
-                    <div class="extra">Program for
-                        Freshers</div>
-                    <ul class="pricing_ul">
-                        <li>lexible timeline</li>
-                        <li>Placement Assistance</li>
-                        <li>Interview Preparation</li>
-                        <li>EMIs starting at just Rs. 5500/-</li>
-                    </ul>
-                    <p class="new_para">Time Investment: 40 hours/week</p>
-                    <button class="columns_button">Learn More</button>
-                </div>
-            </section>
+            <div data-aos="flip-left">
+                <section class="data_new">
+                    <div class="columns">
+                        <div class="extra">Program for
+                            Freshers</div>
+                        <ul class="pricing_ul">
+                            <li>lexible timeline</li>
+                            <li>Placement Assistance</li>
+                            <li>Interview Preparation</li>
+                            <li>EMIs starting at just Rs. 5500/-</li>
+                        </ul>
+                        <p class="new_para">Time Investment: 40 hours/week</p>
+                        <button class="columns_button">Learn More</button>
+                    </div>
+                </section>
+            </div>
         </div>
+        <section class="numbers">
+
+            <div class="firstbox">
+                <h1>600+</h1>
+                <h3>partner compaines</h3>
+            </div>
+            <div class="firstbox">
+                <h1>7LPA</h1>
+                <h3>Average Package</h3>
+            </div>
+            <div class="firstbox">
+                <h1>90%</h1>
+                <h3>Placement Rate</h3>
+            </div>
+            <div class="firstbox">
+                <h1>26LPA</h1>
+                <h3>highest Package</h3>
+            </div>
+        </section>
+        <div class="dummy">
+            <img src="images/Screenshot 2022-05-26 232008.png" alt="" srcset="">
+        </div>
+        <h1 class="review_header">The New age <span>Tech generation</span>is here</h1>
+        <section class="reviews">
+            <div class="review1">
+                <div class="review-data">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE9JZ7LL7vD9g/profile-displayphoto-shrink_100_100/0/1613553767966?e=1658966400&v=beta&t=y0mVpemSXZLbbJabscFcdx48M5cvp_x8gGcz2EKyDl0"
+                        alt="">
+                    <p>Robin Maan</p>
+                </div>
+                <p class="more-details">Full stack web developer at Zykrr 1mo
+                <p class="fulldata">I have some exciting news to share! I have accepted a new position as the Software
+                    Engineer for
+                    <a href="">Zykrr- Experience Analytics and Management Platform [Top 20 CX Solution Providers </a>
+                    . And I would
+                    like to thank everyone at Zykrr for giving me this opportunity. "I am very excited to start this new
+                    journey!"
+                    <br>
+                    <br>
+                    Thank you so much <a href="">Siddharth Maheshwari</a> sir, All my mentors, Instructors and whole <a
+                        href="">Newton School</a>
+                    team, for your guidance in my way to success. You guys helped me in my hard times and turned me into
+                    a Fullstack developer.
+                </p>
+                </p>
+                <div class="social_icon">
+                    <a href="https://twitter.com/login" target="_blank"><img src="images/like.png" alt="" srcset=""></a>
+                    <img src="images/clapping.png" alt="" srcset="">
+                    <img src="images/twitter.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="review2">
+                <div class="review_1">
+                    <div class="review-data">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5103AQG54JBChKEidw/profile-displayphoto-shrink_100_100/0/1528523451491?e=1659571200&v=beta&t=rfDVVR1P4v0nohZuhjvwqSq4V4EZRAqtIPRrvdhbaBY"
+                            alt="">
+                        <p>Robin Maan</p>
+                    </div>
+                    <p class="more-details">Full stack web developer at tcs
+                        <p class="fulldata">
+                            Appreciation post to this crazy bootcamp I did last year:
+                                For me, Newton School was literally a unicorn at the time of the COVID-19 pandemic because I wonder what I would have done without them!<br><br>
+                                
+                                My favourite parts about their Full Stack Development course was the massive knowledge growth at the end of each month, frequent motivational talks from the team, and the step-by-step guidance I received on an HRMS project we did. The mentor sessions acted as a filler for anything that got missed out during the instructor sessions and for clearing up any existing doubts. They were also super helpful for mock interviews. <br><br>
+                                
+                                I started the course with some elementary knowledge but got introduced to many new topics like stack, queues, and hashmap trees which I had never had a chance to learn before. My familiarity with them now will definitely help in the future now. Overall, I had a great experience with Newton School and would recommend it to anyone looking to learn Full Stack Development.
+                                
+                                Thanks  <a href="">Newton School</a> <a href="">#newtonschool</a> <a href="">#growth</a> 
+                                <a href="">#experience</a>
+                        </p>
+                        </p>
+                        <div class="social_icon">
+                            <a href="https://twitter.com/login" target="_blank"><img src="images/like.png" alt="" srcset=""></a>
+                            <img src="images/clapping.png" alt="" srcset="">
+                            <img src="images/twitter.png" alt="" srcset="">
+                        </div>
+                </div>
+        </section>
+
     </body>
 
     </html>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        // function harshal() {
-        //     var show = document.getElementById("menu");
-        //     if (show.style.display == "block")
-        // }
+        AOS.init({
+            offset: 200,
+            duration: 700
+        });
     </script>
+
 </body>
+
 </html>
