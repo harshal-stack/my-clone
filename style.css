@@ -273,7 +273,7 @@
 
  .numbers {
      height: 250px;
-     margin-bottom: 10rem;
+     margin-bottom: 1rem;
      background-color: rgb(59, 88, 184);
      color: #ffffff;
      display: flex;
@@ -298,17 +298,94 @@
 .dummy{
     display: none;
 }
- /* @media (max-width: 1000px) {
-    nav {
-        padding: 0 40px 0 px;
-    }
-} */
+.reviews{
+    margin-top: 1rem;
+    height: 650px;
+    display:flex;
+    
 
+}
+.review_header{
+text-align: center;
+margin-top: 1.5rem;
+}
+.review1{
+    width: 500px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 20px 70px ;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+    display: block;
+}
+.review_1{
+    width: 500px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 20px 70px ;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+}
+.review1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.review_1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.review-data{
+    margin: 10px 40px;
+    display: flex;
+    justify-content: start;
+}
+.review-data{
+    margin: 10px 40px;
+    display: flex;
+    justify-content: start;
+}
+.reviews .more-details{
+    font-size: 11px;
+    margin-left: 99px;
+    width: 45%;
+    margin-top: -35px;
+}
+.fulldata{
+    padding: 20px 30px; 
+}
+.review_1 .fulldata{
+    margin-top: 10px;
+}
+.fulldata a{
+text-decoration: none;
+color: #0356ca;
+font-weight: 700;
+}
+.social_icon{
+    margin-left: 2rem;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social_icon img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
  @media only screen and (max-width: 600px) {
      nav .menu-btn i {
          display: block;
      }
-
+     .review_header{
+         display: none;
+     }
      .numbers {
          display: none
      }
@@ -369,8 +446,8 @@
 
          height: 200px;
          width: 150px;
-         margin-top: -7rem;
-         margin-left: 8rem;
+         margin-top: -9rem;
+         margin-left: 7rem;
          border-radius: 20px;
 
 
@@ -490,6 +567,13 @@
      .dummy{width: 375px;
          display: block;
         width: 90%;
+     }
+     .dummy img{
+         width: 23rem;
+
+     }
+     .reviews{
+         display: none;
      }
 
  }
