@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <style>
         * {
@@ -465,25 +467,64 @@
                         <p>Robin Maan</p>
                     </div>
                     <p class="more-details">Full stack web developer at tcs
-                        <p class="fulldata">
-                            Appreciation post to this crazy bootcamp I did last year:
-                                For me, Newton School was literally a unicorn at the time of the COVID-19 pandemic because I wonder what I would have done without them!<br><br>
-                                
-                                My favourite parts about their Full Stack Development course was the massive knowledge growth at the end of each month, frequent motivational talks from the team, and the step-by-step guidance I received on an HRMS project we did. The mentor sessions acted as a filler for anything that got missed out during the instructor sessions and for clearing up any existing doubts. They were also super helpful for mock interviews. <br><br>
-                                
-                                I started the course with some elementary knowledge but got introduced to many new topics like stack, queues, and hashmap trees which I had never had a chance to learn before. My familiarity with them now will definitely help in the future now. Overall, I had a great experience with Newton School and would recommend it to anyone looking to learn Full Stack Development.
-                                
-                                Thanks  <a href="">Newton School</a> <a href="">#newtonschool</a> <a href="">#growth</a> 
-                                <a href="">#experience</a>
-                        </p>
-                        </p>
-                        <div class="social_icon">
-                            <a href="https://twitter.com/login" target="_blank"><img src="images/like.png" alt="" srcset=""></a>
-                            <img src="images/clapping.png" alt="" srcset="">
-                            <img src="images/twitter.png" alt="" srcset="">
-                        </div>
+                    <p class="fulldata">
+                        Appreciation post to this crazy bootcamp I did last year:
+                        For me, Newton School was literally a unicorn at the time of the COVID-19 pandemic because I
+                        wonder what I would have done without them!<br><br>
+
+                        My favourite parts about their Full Stack Development course was the massive knowledge growth at
+                        the end of each month, frequent motivational talks from the team, and the step-by-step guidance
+                        I received on an HRMS project we did. The mentor sessions acted as a filler for anything that
+                        got missed out during the instructor sessions and for clearing up any existing doubts. They were
+                        also super helpful for mock interviews. <br><br>
+
+                        I started the course with some elementary knowledge but got introduced to many new topics like
+                        stack, queues, and hashmap trees which I had never had a chance to learn before. My familiarity
+                        with them now will definitely help in the future now. Overall, I had a great experience with
+                        Newton School and would recommend it to anyone looking to learn Full Stack Development.
+
+                        Thanks <a href="">Newton School</a> <a href="">#newtonschool</a> <a href="">#growth</a>
+                        <a href="">#experience</a>
+                    </p>
+                    </p>
+                    <div class="social_icon">
+                        <a href="https://twitter.com/login" target="_blank"><img src="images/like.png" alt=""
+                                srcset=""></a>
+                        <img src="images/clapping.png" alt="" srcset="">
+                        <img src="images/twitter.png" alt="" srcset="">
+                    </div>
                 </div>
         </section>
+        <section class="alumin">
+            <h1 class="alu">Our Alumni have some stories to share..</h1>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://i.ytimg.com/vi/7jAzq3GL2Nk/mqdefault.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://i.ytimg.com/vi/Ev23IWYhf4g/mqdefault.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://i.ytimg.com/vi/Ev23IWYhf4g/mqdefault.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://i.ytimg.com/vi/Ev23IWYhf4g/mqdefault.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://i.ytimg.com/vi/Ev23IWYhf4g/mqdefault.jpg" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+            </div>
+        </section>
+
+
+        <section class="more">
+            <h1>
+               <span class="more_span">We celebrate Multi-media,</span> Media celebrates us.
+            </h1>
+            <img src="images/Screenshot 2022-06-02 233213.png" alt="">
+            </section>
 
     </body>
 
@@ -496,6 +537,29 @@
         });
     </script>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+
+            // Navigation arrows
+            //   navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            //   },
+
+        });
+    </script>
 </body>
 
 </html>
