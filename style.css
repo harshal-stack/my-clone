@@ -420,7 +420,7 @@ font-weight: 700;
 .more img{
     margin: auto;
 }
- @media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 600px) {
      nav .menu-btn i {
          display: block;
      }
