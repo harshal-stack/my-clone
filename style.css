@@ -27,7 +27,11 @@
  .logo {
      display: flex;
      justify-content: space-between;
-
+     align-items: center;
+ }
+ .logo h3{
+     font-weight: 600;
+     text-align: center;
  }
 
  nav ul {
@@ -114,15 +118,12 @@
      border: none;
      border-radius: 5px;
      font-size: 18px;
+     font-weight: 600;
      cursor: pointer;
      color: #000000;
 
  }
 
- #ybutton:hover {
-     background-color: white;
-
- }
 
  /* .hero .data button:hover{
     transform: translatex(25px);
@@ -130,7 +131,23 @@
  .hero img {
      border-radius: 1rem;
      width: 230px;
+     animation: up 5s infinite ease-in-out;
  }
+ 
+@keyframes up {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 25px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
 
  .company_section {
 
@@ -141,6 +158,10 @@
 
  .company_section img {
      width: 50rem;
+
+ }
+ .company_section h1{
+     font-size: 30px;
 
  }
 
@@ -490,9 +511,22 @@ font-weight: 700;
          margin-top: -7rem;
          margin-left: 7rem;
          border-radius: 20px;
-
-
+         animation: up 5s infinite ease-in-out;
      }
+     @keyframes up {
+        0% {
+            transform: translate(0, 0px);
+        }
+    
+        30% {
+            transform: translate(0, 15px);
+        }
+    
+        100% {
+            transform: translate(0, -0px);
+        }
+    }
+    
 
      #main_h1 {
          font-size: 30px;
